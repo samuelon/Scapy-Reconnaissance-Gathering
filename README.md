@@ -23,7 +23,7 @@ $ python3 Final-Stage-1.py
 
 ## How to modify for different IoT Ipv4 addresses
 
-Line 126 modify the excel read so it reads
+Line 126 replace the excel file name to your file with the same format as the shodan_data.xlsx.
 
 ```
  df = pd.read_excel('./insert_Excel_File_Here.xlsx')
